@@ -56,7 +56,6 @@ RSpec.describe BabyFood do
         expect{ BabyFood.new(kind: food, size: "small", texture: "soft")}.to output("num nums\n").to_stdout
       end
     end
-
     # This spec file is complete when all favorite foods, invalid size, and invalid texture scenarios have been tested.
   end
 end
